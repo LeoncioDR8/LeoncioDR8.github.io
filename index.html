@@ -120,7 +120,10 @@
                 </div>
             </div>
             <button>
-                Descargar CV <i class="fa-solid fa-download"></i>
+                <a href="cv.pdf" download="cv.pdf" class="download-btn">
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </a>
                 <span class="overlay"></span>
             </button>
         </div>
@@ -282,13 +285,15 @@
         <div class="contenido-seccion">
             <h2>PORTFOLIO</h2>
             <div class="galeria">
-                <div class="proyecto">
+                <div class="proyecto" onclick="window.location.href='https://lonispizza.com'">
                     <img src="img/restaurante.png" alt="">
+                    <a href="https://lonispizza.com"></a>
                     <div class="overlay">
                         <h3>Restaurant</h3>
-                        <p>HTML,CSS,JS</p>
+                        <p>HTML, CSS, JS</p>
                     </div>
                 </div>
+                
                 <div class="proyecto">
                     <img src="img/redesneuronales.png" alt="">
                     <div class="overlay">
@@ -331,7 +336,7 @@
         </div>
     </section>
 
-       <!-- footer -->
+    <!-- footer -->
     <footer>
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
